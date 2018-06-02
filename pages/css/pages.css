@@ -15,4 +15,257 @@ img {
     max-width: 100%; /* Afbeeldingen responsive maken */
 }
 
+.navigatie {
+    font-family: 'Raleway', sans-serif;
+    font-size: 30pt;
+    font-style: normal;
+	width: 80%;
+    margin: 0 auto;
+
+}
+
+header {
+    background: black;
+
+  }
+
+  header::after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+
+  nav {
+    float: center;
+  }
+
+
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+ 
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-left: 50px;
+    padding-top: 23px;
+    padding-bottom: 23px;
+  
+    position: relative;
+  }
+
+
+nav a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 24px;
+  }
+  
+  nav a:hover {
+    color: white;
+  }
+  
+  nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    background-color: white;
+  
+    position: absolute;
+    top: 0;
+    width: 0%;
+  
+    transition: all ease-in-out 250ms;
+  }
+  
+  nav a:hover::before {
+    width: 100%;
+  }
+/*Met de hulp van: https://www.youtube.com/watch?v=FEmysQARWFU*/
+
+  .main {
+    width: 100%;
+    padding-top: 1cm; 
+    background-color:#bdc1c4;
+    height: 100%;
+  }
+
+  .inner {
+        /*border: 3px red solid;*/
+        margin: 2px auto;
+        padding-top: 10px;
+        font-weight: 500;
+        font-size: 35pt;
+        text-align: center;
+        color: white;
+  }
+.tsstitel{
+    margin-bottom: 3px;
+    margin: 2;
+    display: inline-block;
+}
+
+  .underline {
+        width: 10cm;
+        height: 3px;
+        background-color: white;
+        border: white;
+        margin-bottom: 1cm;
+
+  }
+
+  .text {
+      padding: 1cm;
+      font-weight: normal;
+      font-size: 18pt;
+      color: white;
+      width: 50%;
+      height: 100px;
+      margin: 0 auto;
+      background-color: #c86550;
+
+  }
+
+  .knoppen {
+      
+      padding-bottom: 0;
+      margin: 0 auto;
+      height: 200px;
+      width: 200px;
+  }
+
+  .knop {
+    color: white;
+    background-color: #c86550;
+    border: solid 2px #c86550;
+    border-radius: 50px;
+    font-weight: 200;
+    font-size: 20pt;
+    padding: 10px 30px;
+    text-decoration: none;
+    transition-duration: 200ms;
+    margin-top: 5px;
+}
+
+.knop:hover {
+
+    background-color: #FFF;
+    color: #c86550;
+    border: #FFF;
+}
+
+.icon {
+    width: 1cm;
+    height: 1cm;
+    display: inline-block;
+    justify-content: center;
+    margin: 10px;
+
+}
+
+.icons {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: 3px;
+}
+.pics {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 3cm;
+    margin-left: 3cm;
+
+}
+.pic{
+    width: 6cm;
+    height: 6cm;
+    display: inline-block;
+    justify-content: center;
+    margin: 10px;
+
+}
+
+
+.kleuren {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.zwart {
+    color: #FFF;
+    width: 200px;
+    height: 200px;
+    background-color: #000;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.rood {
+    color: #FFF;
+    width: 200px;
+    height: 200px;
+    background-color: #c86550;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.wit{
+    width: 200px;
+    height: 200px;
+    background-color: #FFF ;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.grijs{
+    color: #FFF;
+    width: 200px;
+    height: 200px;
+    background-color: #bdc1c4;
+    border: #000 1px solid;
+    border-right: 0px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.vblink {
+    font-weight: normal;
+      font-size: 18pt;
+      color: blue;
+      margin-bottom: 3px;
+
+}
+.vblink:hover {
+    color: purple;
+}
+
+.lg {
+    display: flex;
+    justify-content: center;
+    width: 15%;
+    height: 15%;;
+}
+  
+.logo {
+ 
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.for {
+    border-radius: 20px;
+    border: 0;
+    margin: 30, 40;
+}
 /* Voeg jouw css hieraan toe */
